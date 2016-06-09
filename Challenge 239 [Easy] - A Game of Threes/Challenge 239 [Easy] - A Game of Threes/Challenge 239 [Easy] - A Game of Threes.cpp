@@ -23,6 +23,10 @@ void sub1(int &num);	// Subtracts 1 from num
 
 int main()
 {
+
+	// Variables
+	int num = 0;
+	
 	// Ends program (For Windows)
 	system("pause");
 	return 0;
