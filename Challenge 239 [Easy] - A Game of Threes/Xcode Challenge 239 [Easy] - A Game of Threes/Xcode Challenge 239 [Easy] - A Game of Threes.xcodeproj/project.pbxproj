@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC58B6131D0B16540075E3EC /* Challenge 239 [Easy] - A Game of Threes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC58B6111D0B16540075E3EC /* Challenge 239 [Easy] - A Game of Threes.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC58B6031D0B14A30075E3EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC58B6051D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Xcode Challenge 239 [Easy] - A Game of Threes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC58B6111D0B16540075E3EC /* Challenge 239 [Easy] - A Game of Threes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Challenge 239 [Easy] - A Game of Threes.cpp"; path = "../../Challenge 239 [Easy] - A Game of Threes/Challenge 239 [Easy] - A Game of Threes.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC58B6021D0B14A30075E3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC58B5FC1D0B14A30075E3EC = {
+			isa = PBXGroup;
+			children = (
+				CC58B6071D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */,
+				CC58B6061D0B14A30075E3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC58B6061D0B14A30075E3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC58B6051D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC58B6071D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */ = {
+			isa = PBXGroup;
+			children = (
+				CC58B6111D0B16540075E3EC /* Challenge 239 [Easy] - A Game of Threes.cpp */,
+			);
+			path = "Xcode Challenge 239 [Easy] - A Game of Threes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC58B6041D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC58B60C1D0B14A30075E3EC /* Build configuration list for PBXNativeTarget "Xcode Challenge 239 [Easy] - A Game of Threes" */;
+			buildPhases = (
+				CC58B6011D0B14A30075E3EC /* Sources */,
+				CC58B6021D0B14A30075E3EC /* Frameworks */,
+				CC58B6031D0B14A30075E3EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xcode Challenge 239 [Easy] - A Game of Threes";
+			productName = "Xcode Challenge 239 [Easy] - A Game of Threes";
+			productReference = CC58B6051D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC58B5FD1D0B14A30075E3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rachel Vancleave";
+				TargetAttributes = {
+					CC58B6041D0B14A30075E3EC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC58B6001D0B14A30075E3EC /* Build configuration list for PBXProject "Xcode Challenge 239 [Easy] - A Game of Threes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC58B5FC1D0B14A30075E3EC;
+			productRefGroup = CC58B6061D0B14A30075E3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC58B6041D0B14A30075E3EC /* Xcode Challenge 239 [Easy] - A Game of Threes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC58B6011D0B14A30075E3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC58B6131D0B16540075E3EC /* Challenge 239 [Easy] - A Game of Threes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC58B60A1D0B14A30075E3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC58B60B1D0B14A30075E3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC58B60D1D0B14A30075E3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC58B60E1D0B14A30075E3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC58B6001D0B14A30075E3EC /* Build configuration list for PBXProject "Xcode Challenge 239 [Easy] - A Game of Threes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC58B60A1D0B14A30075E3EC /* Debug */,
+				CC58B60B1D0B14A30075E3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC58B60C1D0B14A30075E3EC /* Build configuration list for PBXNativeTarget "Xcode Challenge 239 [Easy] - A Game of Threes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC58B60D1D0B14A30075E3EC /* Debug */,
+				CC58B60E1D0B14A30075E3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC58B5FD1D0B14A30075E3EC /* Project object */;
+}

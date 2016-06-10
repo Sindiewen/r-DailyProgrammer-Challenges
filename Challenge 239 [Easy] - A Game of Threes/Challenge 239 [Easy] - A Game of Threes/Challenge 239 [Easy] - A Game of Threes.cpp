@@ -11,11 +11,12 @@
 ///</Summary>
 
 // Preprocessors
-#include "stdafx.h"
+//#include "stdafx.h"
 #include <iostream>
 
 //Namespace
 using namespace std;
+
 // Function Prototypes
 void add1(int &num);	// Adds 1 to num
 void sub1(int &num);	// Subtracts 1 from num
@@ -26,6 +27,17 @@ int main()
 
 	// Variables
 	int num = 0;
+	
+	
+	cout << "Enter a number you would like to divide:\n> ";
+	cin  >> num;
+	
+	
+	while (num > 1)
+	{
+		break;
+	}
+	
 	
 	// Ends program (For Windows)
 	system("pause");
