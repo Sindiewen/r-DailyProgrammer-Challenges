@@ -11,7 +11,6 @@
 ///</Summary>
 
 // Preprocessors
-//#include "stdafx.h"
 #include <iostream>
 
 //Namespace
@@ -29,20 +28,20 @@ int main()
 	
 	cout << "Initial number: " << number << endl;
 	
-	//Threes(number);
+	Threes(number);
 	
 	// While number is not 1
 	while (number != 1)
 	{
 		// If number / 3 evenly
-		if (number / 3)
+		if (number % 3 == 0)
 		{
 			// Divides number by 3
 			
 			number /= 3;
 		}
 		// If number can be divided by 3 by adding 1
-		else if ((number + 1) / 3 )
+		else if ((number + 1) % 3 == 0)
 		{
 			// Divides number by 3 by adding 1 to it
 			number = (number + 1) / 3;
@@ -63,11 +62,15 @@ int main()
 	}
 	
 	cout << "Number of Runs: " << numberOfRuns << endl;
-	cout << number;
 	
 	return 0;
 	
 }
+
+
+
+
+
 
 int Threes(int num)
 {
@@ -76,24 +79,20 @@ int Threes(int num)
 		cout << num << endl;
 	}
 	// If number divides by 3 evenly
-	if (num / 3)
+	if (num % 3 == 0)
 	{
 		Threes(num / 3);
 		cout << num << endl;
 	}
 	// Divdes evenly if 1 is added
-	else if ((num + 1) / 3)
+	else if ((num + 1) % 3 == 0)
 	{
-		num = Threes((num + 1) / 3);
+		Threes((num + 1) / 3);
 		cout << num << endl;
 	}
 	else
 	{
-		num = Threes((num - 1) / 3);
-		{
-			Threes((num - 1) / 3);
-			cout << num << endl;
-		}
+		Threes((num - 1) / 3);
 	}
 	
 	return num;
