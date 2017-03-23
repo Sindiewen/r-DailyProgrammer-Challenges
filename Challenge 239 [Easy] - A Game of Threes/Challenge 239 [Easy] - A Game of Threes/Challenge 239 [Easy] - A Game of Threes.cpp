@@ -18,38 +18,99 @@
 using namespace std;
 
 // Function Prototypes
-void add1(int &num);	// Adds 1 to num
-void sub1(int &num);	// Subtracts 1 from num
+int Threes(int num);
 
 
 int main()
 {
-
-	// Variables
-	int num = 0;
+	// Number
+	long int number = 57;
+	int numberOfRuns = 0;
 	
+	cout << "Initial number: " << number << endl;
 	
-	cout << "Enter a number you would like to divide:\n> ";
-	cin  >> num;
+	//Threes(number);
 	
-	
-	while (num > 1)
+	// While number is not 1
+	while (number != 1)
 	{
-		break;
+		// If number / 3 evenly
+		if (number / 3)
+		{
+			// Divides number by 3
+			
+			number /= 3;
+		}
+		// If number can be divided by 3 by adding 1
+		else if ((number + 1) / 3 )
+		{
+			// Divides number by 3 by adding 1 to it
+			number = (number + 1) / 3;
+		}
+		// Else...
+		else
+		{
+			// Subtract number by 1 to divide by 3
+			number = (number - 1) / 3;
+		}
+		
+		// Iterates number of runs
+		numberOfRuns++;
+		
+		// Prints the current number
+		cout << number << endl;
+		
 	}
 	
+	cout << "Number of Runs: " << numberOfRuns << endl;
+	cout << number;
 	
-	// Ends program (For Windows)
-	system("pause");
 	return 0;
+	
 }
 
-void add1(int &num)
+int Threes(int num)
 {
-
+	if (num == 1)
+	{
+		cout << num << endl;
+	}
+	// If number divides by 3 evenly
+	if (num / 3)
+	{
+		Threes(num / 3);
+		cout << num << endl;
+	}
+	// Divdes evenly if 1 is added
+	else if ((num + 1) / 3)
+	{
+		num = Threes((num + 1) / 3);
+		cout << num << endl;
+	}
+	else
+	{
+		num = Threes((num - 1) / 3);
+		{
+			Threes((num - 1) / 3);
+			cout << num << endl;
+		}
+	}
+	
+	return num;
+	
+	
 }
 
-void sub1(int &num)
-{
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
